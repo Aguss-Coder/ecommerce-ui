@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+:root {
+    --red-color: #d10024;
+}
+
+.header {
+    display: flex;
+    background-color: #1e1f29;
+}
+
+.header__ul-left {
+    padding-left: 5em;
+}
+
+.header__li {
+    display: inline;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.header__li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.header__li a:hover {
+    color: var(--red-color);
+    transition: .3s;
+}
+
+.header__li a i {
+    color: var(--red-color);
+}
+
+.header__ul-right {
+    padding-right: 5em;
+    padding-left: 0%;
+    margin-left: auto;
+}
+
+.nav {
+    background-color: #15161d;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.img-container {
+    padding-left: 5em;
+}
+
+.dropdown {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -4em;
+}
+
+.dropdown__select {
+    border: 0;
+    height: 3em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    width: 9em;
+}
+
+.dropdown__searchbar {
+    height: 46px;
+    border: 0;
+    width: 23em;
+}
+
+.dropdown__button {
+    border: 0;
+    width: 9em;
+    height: 49px;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: var(--red-color);
+    color: #fff;
+    max-height: 3em;
+    font-size: 17px;
+}
